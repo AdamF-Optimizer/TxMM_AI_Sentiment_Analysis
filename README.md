@@ -2,7 +2,7 @@
 
 This project explores public perceptions of artificial intelligence (AI) by mining English-language Reddit posts and their comments. The goal is to identify discussion topics around AI on Reddit and analyze the sentiment expressed within those topics. 
 
-The study is based on scraping relevant posts using the Reddit API (PRAW), followed by extensive preprocessing, K-Means clustering for topic modeling, and VADER sentiment analysis for comment evaluation.
+The project is based on scraping relevant posts using the Reddit API (PRAW), followed by preprocessing, K-Means clustering for topic modeling, and VADER sentiment analysis for comment evaluation.
 
 ## Features
 
