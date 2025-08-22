@@ -21,3 +21,7 @@ The project is based on scraping relevant posts using the Reddit API (PRAW), fol
 - `reddit_posts24-10subreddit_posts/`: Directory with raw post and comment text files collected from the list of discovered subreddits. After collection, `reddit_posts24-10/` and `reddit_posts24-10subreddit_posts/` are merged into `reddit_posts24-10/`. (Not Provided)
 - `reddit_posts24-10_combined_english_cleaned_posts/`: Processed cleaned post files ready for clustering. (Not Provided)
 - `reddit_posts24-10_combined_english_comments_12_clusters/`: Comments sorted into topic clusters. (Not Provided)
+
+## Instructions
+First, you must get your Reddit Application information, which you can get by following the PRAW guide here: https://praw.readthedocs.io/en/stable/getting_started/authentication.html
+Afterwards, simply run the `Data_Collection_private_app_info_removed.py` file to collect your data. Finally, run the entire `Preprocessing_and_analysis.ipynb` notebook to perform the entire analysis pipeline.
